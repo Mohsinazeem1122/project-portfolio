@@ -4,21 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../index.css" />
+    <link rel="stylesheet" href="contact.css" />
     <title>Contact</title>
-    <style>
-      .titleHeading {
-        margin: 15px;
-      }
-      .contact ul {
-        display: flex;
-        flex-direction: column;
-      }
-      .contact li {
-        display: flex;
-        align-items: center;
-        gap: 5px;
-      }
-    </style>
   </head>
   <body>
     <nav class="navbar">
@@ -33,27 +20,67 @@
           <li>Skills</li>
         </a>
         <a href="contact.html">
-          <li>Contact</li>
+          <li>Contact Me</li>
         </a>
       </ul>
     </nav>
 
-    <div class="contact">
-      <h1 class="titleHeading">Contact Details</h1>
-      <ul>
-        <li>
-          <img src="../contact/whatsapp.gif" alt="" />
-          <p>031709770937</p>
-        </li>
-        <li>
-          <img src="../contact/gmail.png" alt="" />
-          <p>mohsincodyex11@gmail.com</p>
-        </li>
-        <li>
-          <img src="../contact/linkedin.png" alt="" />
-          <p>Mohsin azeem</p>
-        </li>
-      </ul>
+    <div class="container">
+      <h1>Connect with Me</h1>
+      <p>
+        I would love to respond to your queries. <br />
+        Feel free to get in touch with me.
+      </p>
+      <div class="contact-box">
+        <div class="contact-left">
+          <h3>Send your request</h3>
+          <form>
+            <div class="input-row">
+              <div class="input-group">
+                <label>Name</label>
+                <input type="text" placeholder="Enter your Name" />
+              </div>
+              <div class="input-group">
+                <label>Phone</label>
+                <input type="text" placeholder="+92 12345678900" />
+              </div>
+            </div>
+            <div class="input-row">
+              <div class="input-group">
+                <label>Email</label>
+                <input type="email" placeholder="Example@gmail.com" />
+              </div>
+              <div class="input-group">
+                <label>Subject</label>
+                <input type="text" placeholder="Product Demo" />
+              </div>
+            </div>
+            <label>Message</label>
+            <textarea rows="5" placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+        <div class="contact-right">
+          <h3>Reach Me</h3>
+          <table>
+            <tr>
+              <td>Email</td>
+              <td>Contact@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Phone</td>
+              <td>+92 12345678900</td>
+            </tr>
+            <tr>
+              <td>Address</td>
+              <td>
+                #212, Ground Floor, 7th cross<br />
+                Some layout, Some Road, Australia
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
     </div>
   </body>
 </html>

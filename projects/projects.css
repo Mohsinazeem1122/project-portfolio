@@ -1,11 +1,15 @@
+.titleHeading {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 .project_container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   place-items: center;
   gap: 30px;
 }
-.titleHeading {
-  text-align: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
+.video {
+  padding-left: 50px;
+  margin-top: 20px;
 }
